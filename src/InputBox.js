@@ -1,17 +1,27 @@
 import React from 'react';
+import connect from "react-redux/es/connect/connect";
 
 class InputBox extends React.Component{
     //This will hold the email address value
     state = {
-        email:"",
-        text:"",
+        text:""
     }
+
+    //Create an action type that takes the text when enter is clicked
+    onEnterClick = email =>{
+        this.props.dispatch(    {type:'EnterWasPressed', email:{email} }   )
+    }
+
 
     //This function checks for when the enter key is pressed and then sets the value in the text field to the email in state
     handleEnterPress = a =>{
             if(a.key === "Enter")
             {
-            this.setState({email: this.state.text});
+                //When enter is clicked, the store email should be set to text
+                this.onEnterClick(this.state.text);
+           // this.setState({email: this.state.text});
+
+                //Set text back to blank
             this.setState({text: ""});
 
             }
@@ -41,6 +51,7 @@ class InputBox extends React.Component{
             </a>
             </div>
 
+
         </div>
         )
 
@@ -48,4 +59,12 @@ class InputBox extends React.Component{
 
 }
 
-export default InputBox;
+//Takes a state var parameter, sets email to state.email
+function mapStateToProps(state) {
+    return {
+        email: state.email
+    };
+}
+
+//What connect does is it connects input box to redux, hooks into redux takes the state, passes it into mapStateToProps, the return of mapStateToProps gets sent to your component as a prop
+export default connect(mapStateToProps)(InputBox);
