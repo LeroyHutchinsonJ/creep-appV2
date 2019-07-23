@@ -40,7 +40,7 @@ function App() {
           <InputBox/>
 
           <div className="Details">
-              <div></div>
+              <div>{store.state.email}</div>
           </div>
             </div>
       </Provider>
