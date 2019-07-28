@@ -4,7 +4,7 @@ import connect from "react-redux/es/connect/connect";
 
 class Details extends React.Component{
     render() {
-        return(<div className= "Details">Bluh BLAH </div>)
+        return(<div className= "Details">{this.props.children}</div>)
     }
 }
 

@@ -10,9 +10,8 @@ import {createStore, Store} from "redux";
 import Details from './Details.js'
 
 const initialState = {
-    email:''
+    email:""
 }
-
 
 //Need to learn how to access state
 
@@ -21,8 +20,8 @@ function reducer(state = initialState, action)
 {
     if(action.type == 'EnterWasPressed')
     {
-
         return {email:action.email};
+
     }
     else
     {
@@ -39,7 +38,8 @@ function App() {
 
           <div className="App">
           <InputBox/>
-          <Details/>
+              <Details></Details>
+
             </div>
       </Provider>
 

@@ -8,8 +8,8 @@ class InputBox extends React.Component{
     }
 
     //Create an action type that takes the text when enter is clicked
-    onEnterClick = text =>{
-        this.props.dispatch(    {type:'EnterWasPressed', email:{text} }   )
+    onEnterClick =()=>{
+        this.props.dispatch(    {type:'EnterWasPressed', email: this.state.text }   )
     }
 
 
@@ -18,10 +18,9 @@ class InputBox extends React.Component{
             if(a.key === "Enter")
             {
                 //When enter is clicked, the store email should be set to text
-                this.onEnterClick(this.state.text);
-           // this.setState({email: this.state.text});
+                this.onEnterClick();
 
-                //Set text back to blank
+                //Set the state text back to blank
             this.setState({text: ""});
 
             }
