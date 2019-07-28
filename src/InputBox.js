@@ -45,9 +45,9 @@ class InputBox extends React.Component{
             onKeyPress={this.handleEnterPress}
             />
 
-            <a className="searchBtn" >
+            <button className="searchBtn">
             <i className="fas fa-search" />
-            </a>
+            </button>
             </div>
 
 

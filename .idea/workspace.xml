@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e78c6685-2dce-4c9e-a949-b4d904df1b74" name="Default Changelist" comment="Added the neccesary dependencies to start using redux in my application">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Details.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InputBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/InputBox.js" afterDir="false" />
@@ -71,7 +72,7 @@
       <workItem from="1563716363578" duration="6604000" />
       <workItem from="1563805437495" duration="164000" />
       <workItem from="1563845366665" duration="2330000" />
-      <workItem from="1564324896547" duration="4100000" />
+      <workItem from="1564324896547" duration="10821000" />
     </task>
     <task id="LOCAL-00001" summary="Added the neccesary dependencies to start using redux in my application">
       <created>1563333165201</created>
