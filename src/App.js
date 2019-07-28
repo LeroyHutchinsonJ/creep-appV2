@@ -7,6 +7,7 @@ import {Provider} from 'react-redux';
 //The store is where all of the state stuff is stored
 import {createStore, Store} from "redux";
 
+import Details from './Details.js'
 
 const initialState = {
     email:''
@@ -38,10 +39,7 @@ function App() {
 
           <div className="App">
           <InputBox/>
-
-          <div className="Details">
-              <div>{store.state}</div>
-          </div>
+          <Details/>
             </div>
       </Provider>
 
