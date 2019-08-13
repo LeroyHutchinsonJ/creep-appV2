@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e78c6685-2dce-4c9e-a949-b4d904df1b74" name="Default Changelist" comment="Added the neccesary dependencies to start using redux in my application">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Details.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/InputBox.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +17,9 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="creep-app" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -32,7 +32,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../TestCaseRoomsterApp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -73,6 +73,9 @@
       <workItem from="1563805437495" duration="164000" />
       <workItem from="1563845366665" duration="2330000" />
       <workItem from="1564324896547" duration="10821000" />
+      <workItem from="1564411110450" duration="320000" />
+      <workItem from="1564451414567" duration="1289000" />
+      <workItem from="1564497432481" duration="378000" />
     </task>
     <task id="LOCAL-00001" summary="Added the neccesary dependencies to start using redux in my application">
       <created>1563333165201</created>
@@ -101,7 +104,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

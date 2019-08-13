@@ -19,7 +19,7 @@ state = {
                 "Authorization": "Bearer p4RLzkcz9ge9CJhNtVFVd5bv8Q6w0SKp"
             },
             body: JSON.stringify({
-                "email": this.props.email,
+                "email": "cem@roomster.com" //Check with cem first to make sure it works then when you are sure it does, use this.props.email,
             })
         });
 
@@ -27,8 +27,8 @@ state = {
         var json = await response.json();
 
         //This sets the class state to the response[Might remove]
-        this.setState({personName: json.fullName});
-        console.log(json);
+      //this.setState({personName: json.fullName});
+        console.log(json.fullName);
 
     }
 
@@ -38,7 +38,8 @@ state = {
 
 
     render() {
-        return(<div className= "Details" onClick={this.check()}>
+        return(<div className= "Details">
+            <button onClick={() => this.check()}>Press Me</button>
         </div>)
     }
 }
